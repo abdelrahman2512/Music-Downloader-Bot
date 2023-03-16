@@ -5,8 +5,8 @@ FROM ubuntu:latest
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN mkdir /Song_Downloader
-WORKDIR /Song_Downloader
+RUN mkdir bot.py
+WORKDIR bot.py
 
 COPY . ./
 
